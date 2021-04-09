@@ -1,0 +1,31 @@
+2021-04-09T09:42:59,120 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T09:42:59,893 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 3 - , city=s, street=s, number=2, zipCode=222222) 
+2021-04-09T09:42:59,894 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 2 - , city=z, street=z, number=2, zipCode=234567) 
+2021-04-09T09:42:59,894 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:42:59,895 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 4 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:42:59,895 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 5 - , city=a, street=1, number=1, zipCode=123456) 
+2021-04-09T09:42:59,895 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 12 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:42:59,896 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 8 - , city=q, street=q, number=1, zipCode=111111) 
+2021-04-09T09:42:59,896 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 9 - , city=a, street=23, number=234, zipCode=123456) 
+2021-04-09T09:43:06,135 INFO  [main]: AddressConsole                       - sortAddress--- method entered 
+2021-04-09T09:43:06,157 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:43:06,158 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 4 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:43:06,158 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 5 - , city=a, street=1, number=1, zipCode=123456) 
+2021-04-09T09:43:06,159 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 12 - , city=a, street=a, number=1, zipCode=123456) 
+2021-04-09T09:43:06,159 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 9 - , city=a, street=23, number=234, zipCode=123456) 
+2021-04-09T09:43:06,159 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 8 - , city=q, street=q, number=1, zipCode=111111) 
+2021-04-09T09:43:06,160 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 3 - , city=s, street=s, number=2, zipCode=222222) 
+2021-04-09T09:43:06,161 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 2 - , city=z, street=z, number=2, zipCode=234567) 
+2021-04-09T09:43:22,175 INFO  [main]: AddressConsole                       - deleteAddress: id=12 
+2021-04-09T09:43:22,274 INFO  [main]: AddressConsole                       - deleteAddress --- method finished 
+2021-04-09T09:43:37,215 INFO  [main]: AddressConsole                       - saveAddress: address=Address(super=ID: 20 - , city=, street=a, number=1, zipCode=123456) 
+2021-04-09T09:43:37,357 INFO  [main]: AddressConsole                       - Validation exception! 
+2021-04-09T20:22:22,702 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T20:26:37,242 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T20:40:26,347 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T20:57:59,855 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T20:59:53,366 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T21:55:51,137 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T22:08:49,243 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T22:40:35,103 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-09T22:40:35,224 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
