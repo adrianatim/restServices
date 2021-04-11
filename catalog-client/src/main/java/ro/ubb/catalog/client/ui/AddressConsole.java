@@ -2,7 +2,6 @@ package ro.ubb.catalog.client.ui;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import ro.ubb.catalog.client.rest.RestService;
 import ro.ubb.catalog.core.model.Address;
 import ro.ubb.catalog.core.model.validators.ValidatorException;
@@ -13,8 +12,10 @@ import ro.ubb.catalog.web.dto.AddressesDto;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
-import java.util.function.Predicate;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
+import java.util.Scanner;
 
 public class AddressConsole {
     private RestService restService;

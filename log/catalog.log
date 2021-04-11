@@ -29,3 +29,184 @@
 2021-04-09T22:08:49,243 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
 2021-04-09T22:40:35,103 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
 2021-04-09T22:40:35,224 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-10T20:43:28,480 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-10T20:43:29,076 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-10T21:32:26,649 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-10T21:44:09,440 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-10T21:44:10,019 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-10T21:44:16,454 INFO  [main]: AddressConsole                       - sortAddress--- method entered 
+2021-04-10T21:44:16,557 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-11T03:37:46,869 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T03:37:47,407 INFO  [main]: DishConsole                          - There are no Dishes! 
+2021-04-11T03:38:09,942 INFO  [main]: DishConsole                          - saveDish: Dish=Dish(super=ID: 1 - , name=d1, price=10.0, quantity=20, category=c1) 
+2021-04-11T03:38:26,013 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T03:38:26,079 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d1, price=10.0, quantity=20, category=c1) 
+2021-04-11T03:38:53,149 INFO  [main]: DishConsole                          - saveDish: Dish=Dish(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T03:38:56,157 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T03:38:56,181 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d1, price=10.0, quantity=20, category=c1) 
+2021-04-11T03:38:56,183 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T03:39:26,291 INFO  [main]: DishConsole                          - updateDish: Dish=Dish(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T03:39:29,317 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T03:39:29,339 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T03:39:29,339 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T03:39:38,349 INFO  [main]: DishConsole                          - sortDish--- method entered 
+2021-04-11T03:39:38,449 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T03:39:38,449 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T14:01:07,730 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T14:01:08,332 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T14:01:08,333 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:01:20,775 INFO  [main]: DishConsole                          - sortDish--- method entered 
+2021-04-11T14:01:20,880 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:01:20,880 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T14:02:08,180 INFO  [main]: AddressConsole                       - getAllAddresses --- method entered 
+2021-04-11T14:02:08,275 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-11T14:02:15,264 INFO  [main]: AddressConsole                       - AddressDto(super=ID: 1 - , city=c1, street=s1, number=10, zipCode=123456) 
+2021-04-11T14:04:34,792 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:04:34,837 INFO  [main]: RestaurantConsole                    - There are no restaurants! 
+2021-04-11T14:04:57,912 INFO  [main]: RestaurantConsole                    - saveRestaurant: restaurant=Restaurant(super=ID: 1 - , name=name, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:05:04,934 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:05:04,965 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=name, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:05:25,014 INFO  [main]: RestaurantConsole                    - saveRestaurant: restaurant=Restaurant(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:05:31,036 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:05:31,058 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=name, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:05:31,058 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:05:50,136 INFO  [main]: RestaurantConsole                    - updateRestaurant: Restaurant=Restaurant(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:05:52,143 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:05:52,165 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:05:52,165 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:06:09,241 INFO  [main]: RestaurantConsole                    - sortRestaurant--- method entered 
+2021-04-11T14:06:09,272 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:06:09,273 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:06:38,399 INFO  [main]: RestaurantConsole                    - saveRestaurant: restaurant=Restaurant(super=ID: 3 - , name=ana, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:06:40,407 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:06:40,431 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:06:40,431 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:06:40,431 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 3 - , name=ana, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:06:43,419 INFO  [main]: RestaurantConsole                    - sortRestaurant--- method entered 
+2021-04-11T14:06:43,448 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 3 - , name=ana, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:06:43,448 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:06:43,448 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:07:11,876 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:07:53,921 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:07:54,481 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:07:54,481 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:07:54,481 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 3 - , name=ana, rating=5, capacity=200, delivery=true) 
+2021-04-11T14:08:02,970 INFO  [main]: RestaurantConsole                    - deleteRestaurant: id=3 
+2021-04-11T14:08:03,201 INFO  [main]: RestaurantConsole                    - deleteRestaurant --- method finished 
+2021-04-11T14:08:05,983 INFO  [main]: RestaurantConsole                    - getAllRestaurants --- method entered 
+2021-04-11T14:08:06,007 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 2 - , name=m2, rating=4, capacity=120, delivery=false) 
+2021-04-11T14:08:06,008 INFO  [main]: RestaurantConsole                    - RestaurantDto(super=ID: 1 - , name=nane, rating=3, capacity=300, delivery=true) 
+2021-04-11T14:08:37,149 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 1 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Fri Oct 02 00:00:00 EEST 2020) 
+2021-04-11T14:08:40,162 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:08:40,215 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Fri Oct 02 00:00:00 EEST 2020) 
+2021-04-11T14:09:07,269 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:09:09,275 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:09:09,299 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Fri Oct 02 00:00:00 EEST 2020) 
+2021-04-11T14:09:09,299 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:09:17,309 INFO  [main]: OrderConsole                         - sortOrder--- method entered 
+2021-04-11T14:09:17,393 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:09:17,393 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Fri Oct 02 00:00:00 EEST 2020) 
+2021-04-11T14:10:38,783 INFO  [main]: OrderConsole                         - updateOrder: Order=Orders(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:10:42,798 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:10:42,822 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:10:42,822 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:11:09,904 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 1 - , restaurantID=4, clientID=2, dishID=1, paymentType=card, date=Wed Sep 09 00:00:00 EEST 2020) 
+2021-04-11T14:11:09,939 INFO  [main]: OrderConsole                         - Order already exists 
+2021-04-11T14:12:00,120 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 4 - , restaurantID=4, clientID=2, dishID=1, paymentType=card, date=Wed Sep 09 00:00:00 EEST 2020) 
+2021-04-11T14:12:04,159 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:12:04,182 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:12:04,182 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:12:04,182 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 4 - , restaurantID=4, clientID=2, dishID=1, paymentType=card, date=Wed Sep 09 00:00:00 EEST 2020) 
+2021-04-11T14:12:13,213 INFO  [main]: OrderConsole                         - deleteOrder: id=4 
+2021-04-11T14:12:13,235 INFO  [main]: OrderConsole                         - deleteOrder --- method finished 
+2021-04-11T14:12:15,221 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:12:15,250 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Oct 10 00:00:00 EEST 2021) 
+2021-04-11T14:12:15,250 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:12:39,312 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T14:12:39,364 INFO  [main]: DishConsole                          - DishDto(super=ID: 2 - , name=nane, price=11.0, quantity=6, category=c3) 
+2021-04-11T14:12:39,364 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:12:44,347 INFO  [main]: DishConsole                          - deleteDish: id=2 
+2021-04-11T14:12:44,387 INFO  [main]: DishConsole                          - deleteDish --- method finished 
+2021-04-11T14:12:55,428 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T14:12:55,445 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:13:03,457 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T14:13:03,481 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:16:30,623 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T14:58:41,467 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T14:58:41,477 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T14:58:54,535 INFO  [main]: DishConsole                          - sortDish--- method entered 
+2021-04-11T14:58:54,546 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T15:26:38,321 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T15:26:38,937 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T15:26:54,380 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:26:54,461 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:27:16,514 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:27:21,522 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:27:21,537 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:27:21,537 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:27:57,668 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Apr 04 00:00:00 EEST 2021) 
+2021-04-11T15:28:01,682 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:28:01,698 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:28:01,698 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:28:01,698 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 3 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Apr 04 00:00:00 EEST 2021) 
+2021-04-11T15:28:10,755 INFO  [main]: DishConsole                          - getAllDishes --- method entered 
+2021-04-11T15:28:10,762 INFO  [main]: DishConsole                          - DishDto(super=ID: 1 - , name=d5, price=11.09, quantity=17, category=c1) 
+2021-04-11T15:32:20,088 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:32:20,595 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:32:20,595 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:32:20,595 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 3 - , restaurantID=1, clientID=2, dishID=2, paymentType=card, date=Sun Apr 04 00:00:00 EEST 2021) 
+2021-04-11T15:32:25,132 INFO  [main]: OrderConsole                         - deleteOrder: id=3 
+2021-04-11T15:32:25,259 INFO  [main]: OrderConsole                         - deleteOrder --- method finished 
+2021-04-11T15:32:42,219 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=4, paymentType=card, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:32:46,231 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:32:46,247 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:32:46,247 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:32:46,247 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 3 - , restaurantID=1, clientID=1, dishID=4, paymentType=card, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:35:29,529 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:35:30,137 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:35:30,137 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:35:30,137 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 3 - , restaurantID=1, clientID=1, dishID=4, paymentType=card, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:35:35,544 INFO  [main]: OrderConsole                         - deleteOrder: id=3 
+2021-04-11T15:35:35,659 INFO  [main]: OrderConsole                         - deleteOrder --- method finished 
+2021-04-11T15:35:54,690 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=5, paymentType=card, date=Wed May 06 00:00:00 EEST 2020) 
+2021-04-11T15:35:57,698 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:35:57,713 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:35:57,713 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:41:05,167 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:41:05,768 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:41:05,768 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:41:27,284 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=6, paymentType=card, date=Wed Mar 04 00:00:00 EET 2020) 
+2021-04-11T15:41:32,291 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:41:32,318 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:41:32,318 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:58:03,902 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:58:04,450 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:58:04,450 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:58:22,010 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=6, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:58:22,170 INFO  [main]: OrderConsole                         - Validation exception! 
+2021-04-11T15:58:41,125 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:58:41,136 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:58:41,136 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T15:59:56,499 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T15:59:57,077 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T15:59:57,077 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:00:19,596 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=5, paymentType=cash, date=Thu Mar 04 00:00:00 EET 2021) 
+2021-04-11T16:00:24,599 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:00:24,606 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:00:24,606 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:01:07,350 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:01:07,486 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:01:07,486 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:01:22,371 INFO  [main]: OrderConsole                         - saveOrder: Order=Orders(super=ID: 3 - , restaurantID=1, clientID=1, dishID=6, paymentType=acsqa, date=Wed Mar 04 00:00:00 EET 2020) 
+2021-04-11T16:01:24,369 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:01:24,404 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:01:24,406 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:06:06,031 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:06:06,066 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:06:06,082 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Sun Feb 02 00:00:00 EET 2020) 
+2021-04-11T16:06:27,104 INFO  [main]: OrderConsole                         - updateOrder: Order=Orders(super=ID: 2 - , restaurantID=1, clientID=1, dishID=4, paymentType=cash, date=Thu Apr 23 00:00:00 EEST 2020) 
+2021-04-11T16:06:31,119 INFO  [main]: OrderConsole                         - getAllOrders --- method entered 
+2021-04-11T16:06:31,162 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 1 - , restaurantID=2, clientID=2, dishID=1, paymentType=card, date=Tue Jan 21 00:00:00 EET 2020) 
+2021-04-11T16:06:31,162 INFO  [main]: OrderConsole                         - OrderDto(super=ID: 2 - , restaurantID=1, clientID=1, dishID=4, paymentType=cash, date=Thu Apr 23 00:00:00 EEST 2020) 
+2021-04-11T16:06:53,213 INFO  [main]: OrderConsole                         - updateOrder: Order=Orders(super=ID: 5 - , restaurantID=1, clientID=1, dishID=1, paymentType=cash, date=Mon Feb 03 00:00:00 EET 2020) 
+2021-04-11T16:06:53,266 INFO  [main]: OrderConsole                         - Order with this ID doesn't exist/Validation Error! 

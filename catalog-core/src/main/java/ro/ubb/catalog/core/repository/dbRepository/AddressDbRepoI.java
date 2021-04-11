@@ -1,6 +1,5 @@
 package ro.ubb.catalog.core.repository.dbRepository;
 
-
 import ro.ubb.catalog.core.model.Address;
 import ro.ubb.catalog.core.repository.RepoI;
 
