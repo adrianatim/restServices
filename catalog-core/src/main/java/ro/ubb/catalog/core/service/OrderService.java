@@ -83,6 +83,17 @@ public class OrderService implements ServiceI<Integer, Orders> {
         orderValidator.validate(order);
         LOG.trace("update: order={}", order);
         Optional<Orders> order1 = orderDbRepoI.findById(order.getId());
+        Optional<Restaurant> restaurant = restaurantDbRepoI.findById(order.getRestaurantID());
+        Optional<Dish> dish = dishDbRepoI.findById(order.getDishID());
+
+        try {
+            order1.orElseThrow(Exception::new);
+            restaurant.orElseThrow(Exception::new);
+            dish.orElseThrow(Exception::new);
+        } catch (Exception e) {
+            System.out.println("Can not update this order! Nonexistent id!");
+            return order1;
+        }
 
         orderDbRepoI.findById(order.getId())
                 .ifPresent(a -> {
