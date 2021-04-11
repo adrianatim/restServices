@@ -10,10 +10,8 @@ import ro.ubb.catalog.core.model.validators.AddressValidator;
 import ro.ubb.catalog.core.model.validators.ValidatorException;
 import ro.ubb.catalog.core.repository.dbRepository.AddressDbRepoI;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
@@ -81,10 +79,12 @@ public class AddressService implements ServiceI<Integer, Address> {
         return address1;
     }
 
-    public List<Address> filterFunction(String city) {
-        return this.addressDbRepoI.findByCity(city);
+    @Override
+    public List<Address> filterFunction(String string) {
+        return this.addressDbRepoI.findByCity(string);
     }
 
+    @Override
     public List<Address> sortFunction() {
         return this.addressDbRepoI.findByOrderByCity();
     }

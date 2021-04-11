@@ -1,24 +1,20 @@
 package ro.ubb.catalog.web.controller;
 
-import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ro.ubb.catalog.core.model.Address;
-import ro.ubb.catalog.core.service.AddressService;
 import ro.ubb.catalog.core.service.ServiceI;
 import ro.ubb.catalog.web.converter.AddressConverter;
 import ro.ubb.catalog.web.dto.AddressDto;
 import ro.ubb.catalog.web.dto.AddressesDto;
 
-import javax.annotation.Resource;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
-import java.util.function.Predicate;
 
 @RestController
 public class AddressController {
@@ -26,6 +22,7 @@ public class AddressController {
     private static final Logger Log = LoggerFactory.getLogger(AddressController.class);
 
     @Autowired
+    @Qualifier("addressService")
     private ServiceI<Integer, Address> addressService;
 
     @Autowired

@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ro.ubb.catalog.client.rest.RestService;
 import ro.ubb.catalog.core.model.Address;
+import ro.ubb.catalog.core.model.Dish;
+import ro.ubb.catalog.core.model.Orders;
+import ro.ubb.catalog.core.model.Restaurant;
 import ro.ubb.catalog.core.service.ServiceI;
 import org.springframework.web.client.RestTemplate;
 
@@ -19,6 +22,9 @@ public class Console {
             Console.class);
 
     private ServiceI<Integer, Address> addressService;
+    private ServiceI<Integer, Dish> dishServiceI;
+    private ServiceI<Integer, Restaurant> restaurantServiceI;
+    private ServiceI<Integer, Orders> orderServiceI;
     private RestTemplate restTemplate;
 
     @Autowired
@@ -53,37 +59,37 @@ public class Console {
         Map<String, Runnable> commands = new HashMap<>();
         commands.put("0", () -> System.exit(0));
 //        commands.put("1", this::callClientMenu);
-//        commands.put("2", this::callDishMenu);
-//        commands.put("3", this::callOrderMenu);
+        commands.put("2", this::callDishMenu);
+        commands.put("3", this::callOrderMenu);
         commands.put("4", this::callAddressMenu);
-//        commands.put("5", this::callRestaurantMenu);
+        commands.put("5", this::callRestaurantMenu);
         return commands;
     }
 
-//    private void callClientMenu() {
+    //    private void callClientMenu() {
 //        ClientConsole clientConsole = new ClientConsole(this.clientServiceI, this.orderServiceI, this);
 //        clientConsole.printClientMenu();
 //    }
 //
-//    private void callDishMenu() {
-//        DishConsole dishConsole = new DishConsole(this.dishServiceI, this.orderServiceI, this);
-//        dishConsole.printDishMenu();
-//    }
-//
-//    private void callOrderMenu() {
-//        OrderConsole orderConsole = new OrderConsole(this.orderServiceI, this);
-//        orderConsole.printOrderMenu();
-//    }
+    private void callDishMenu() {
+        DishConsole dishConsole = new DishConsole(this.dishServiceI, this, restService);
+        dishConsole.printDishMenu();
+    }
+
+    private void callOrderMenu() {
+        OrderConsole orderConsole = new OrderConsole(this.orderServiceI, this, restService);
+        orderConsole.printOrderMenu();
+    }
 
     private void callAddressMenu() {
-        AddressConsole addressConsole = new AddressConsole(addressService,this,restService);
+        AddressConsole addressConsole = new AddressConsole(addressService, this, restService);
         addressConsole.printAddressMenu();
     }
 
-//    private void callRestaurantMenu() {
-//        RestaurantConsole restaurantConsole = new RestaurantConsole(this.restaurantServiceI, this.orderServiceI, this);
-//        restaurantConsole.printRestaurantMenu();
-//    }
+    private void callRestaurantMenu() {
+        RestaurantConsole restaurantConsole = new RestaurantConsole(this.restaurantServiceI, this, restService);
+        restaurantConsole.printRestaurantMenu();
+    }
 
     /**
      * The function runs the console.

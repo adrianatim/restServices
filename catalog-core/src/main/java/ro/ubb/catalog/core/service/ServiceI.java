@@ -50,6 +50,7 @@ public interface ServiceI<ID extends Serializable, T extends BaseEntity<ID>> {
      */
     Optional<T> update(T t) throws ValidatorException;
 
-    List<T> filterFunction(String city);
-    List<Address> sortFunction();
+    List<T> filterFunction(String string);
+    List<T> sortFunction();
+
 }
